@@ -1,0 +1,101 @@
+<meta name="description" content="In this assignment you will apply the learning activity concepts to enhance your home page with HTML standards, CSS, and testing with the W3C validators..">
+<meta name="author" content="richard otieno">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Home Page</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- Meta tags -->
+    <meta name="description" content="Richard Otieno's WDD 130 course home page showcasing web development assignments and projects.">
+    <meta name="author" content="Richard Otieno">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Course Home Page</h1>
+        <p>Exploring web development with WDD 130!</p>
+    </header>
+
+    <main>
+        <h2>About Me</h2>
+        <p>My name is Richard Otieno, and I am passionate about learning web development. This site will showcase my progress throughout the WDD 130 course.</p>
+        <img src="images/profile.jpg" alt="Profile picture">
+    </main>
+
+    <!-- New Aside Section -->
+    <aside>
+        <h2>Kenya</h2>
+        <img src="images/state_image.jpg" alt="A scenic view representing Kenya">
+        <p>Kenya, located in East Africa, is known for its stunning landscapes, vibrant culture, and world-renowned wildlife safaris. It is home to iconic destinations like the Maasai Mara and Mount Kenya.</p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 Richard Otieno. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #0077B6;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Main Section */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* Aside Section */
+aside {
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #0077B6;
+    background-color: #CAF0F8;
+    color: #03045E;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+aside p {
+    margin: 10px 0;
+}
+
+/* Footer Section */
+footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    background-color: #0077B6;
+    color: white;
+}
